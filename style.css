@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(221, 100%, 96%);
+  font-family: "Hanken Grotesk", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  width: 736px;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.result {
+  width: 50%;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  color: white;
+  border-radius: 30px;
+  padding: 36px 60px 54px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result h2 {
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.score-display {
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-block: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.score-display strong {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.score-display span {
+  opacity: 0.4;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+
+.description {
+  font-size: 1.1rem;
+  opacity: 0.6;
+}
+
+.summary {
+  width: 50%;
+  padding: 36px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.summary h2,
+.score {
+  color: hsl(224, 30%, 27%);
+}
+
+ul {
+  list-style: none;
+  margin-block: 26px 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+li {
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category {
+  margin-left: 16px;
+  margin-right: auto;
+}
+
+.reaction {
+  background-color: hsla(0, 100%, 67%, 0.05);
+  color: hsl(0, 100%, 67%);
+}
+
+.memory {
+  background-color: hsla(39, 100%, 56%, 0.05);
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.05);
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  background-color: hsla(234, 85%, 45%, 0.05);
+  color: hsl(234, 85%, 45%);
+}
+
+.score span {
+  opacity: 0.5;
+}
+
+button {
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  font-family: inherit;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 30px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 375px;
+    border-radius: 0;
+    flex-direction: column;
+  }
+
+  .result {
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+    padding: 24px 60px 38px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .score-display {
+    width: 140px;
+    height: 140px;
+    margin-block: 24px;
+  }
+
+  .score-display strong {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .description,
+  li {
+    font-size: 1rem;
+  }
+
+  .summary {
+    width: 100%;
+    padding: 22px 30px 30px;
+  }
+
+  ul {
+    margin-block: 20px 24px;
+  }
+}
