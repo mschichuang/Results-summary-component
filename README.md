@@ -10,5 +10,5 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-xkxnHaUKf3](https://www.frontendmentor.io/solutions/product-preview-card-component-xkxnHaUKf3)
-- Live Site URL: [https://mschichuang.github.io/Product-preview-card-component/](https://mschichuang.github.io/Product-preview-card-component/)
+- Solution URL: [https://www.frontendmentor.io/solutions/results-summary-component-wbrRLY_tS-](https://www.frontendmentor.io/solutions/results-summary-component-wbrRLY_tS-)
+- Live Site URL: [https://mschichuang.github.io/Results-summary-component/](https://mschichuang.github.io/Results-summary-component/)
